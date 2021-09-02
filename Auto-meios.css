@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+body {
+	font-family: 'Oswald', serif;
+	background-color: rgb(14, 25, 34);
+	background-image:-webkit-linear-gradient(270deg, rgb(200,200,200)0%,rgb(150,150,150)100%,rgb(255,255,255)0%);
+
+}
+
+img{
+	box-shadow: -20px 0px 10px 10px rgba(0, 0,0, 0.50)
+}
+
+
+.saiba-mais {
+	display: inline-block;
+	float: right;
+}
+.saiba-mais a {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+p {
+	line-height: 30px;
+	font-weight: 700;
+	font-size: 20px;
+}
+p a {
+	word-break: break-all;
+}
+
+main {
+	width: 979px;
+	margin: auto;
+}
+@media (max-width: 980px) {
+	main {
+		width: 98%;
+		margin: 0 1%;
+	}
+	footer, header {
+		padding: 0;
+	}
+}
+header {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 80px;
+	padding: 5px 8px;
+	display: table;
+	box-shadow: -20px 0px 10px 10px rgba(0, 0,0, 0.50)
+}
+.intro {
+	background: url("autos.jpg");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 290px;
+	display: block;
+	padding: 0px;
+}
+h1{
+	color: #fff;
+	display: inline;
+	float: left;
+	/*box-shadow: 0px 0px 10px 10px rgba(0, 0,0, 0.50)*/
+}
+header nav {
+	display: inline;
+	float: right;
+	/*box-shadow: 0px 0px 10px 10px rgba(0, 0,0, 0.50)*/
+}
+header nav ul li {
+	display: inline;
+	list-style: none;
+}
+header nav ul li a {
+	color: #fff;
+	display: inline-block;
+	padding: 15px 5px;
+}
+header nav ul li a:hover, footer nav ul li a:hover {
+	color: #5EBFB5;
+}
+article {
+	margin: 0 0 80px 0;
+}
+article:after {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+	content: "";
+
+}
+
+a {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	color: rgb(100, 100, 100);
+	font-weight:bold;
+
+}
+a:hover{
+	color: #F2635F;
+}
+a.active {
+	color: #97FFF4;
+}
+
+h2{
+	color: #32403E;
+	font-size: 40px;
+}
+h3{
+	font-weight: 900;
+}
+p{
+	color: #444;
+	display: table;
+	width: 100%;
+}
+footer {
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 10px 8px;
+	display: table;
+	box-shadow: -20px 0px 10px 10px rgba(0, 0,0, 0.50)
+}
+footer h3 {
+	color: #fff;
+	display: table;
+	float: left;
+	width: auto;
+}
+footer nav {
+	display: inline-block;
+	float: right;
+}
+footer ul li {
+	display: inline;
+	list-style: none;
+}
+footer ul li a {
+	color:#fff;
+	padding: 5px;
+}
+aside ul li {
+	line-height: 30px;
+}
+
+ /* Divisoria da estrutura aside */
+.container {
+	width: 70%;
+	float: left;
+}
+aside {
+	float: right;
+	width: 25%;
+}
+@media (max-width: 1024px){
+	.container,aside {
+		width: 100%;
+		float: none;
+	}
